@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "test": "SET DEBUG=node-fusion:* && SET PORT=9000 && nodemon ./bin/www"
+    "test": "SET DEBUG=node-fusion:* && SET PORT=8000 && nodemon ./bin/www"
   },
   "dependencies": {
     "axios": "^0.21.1",

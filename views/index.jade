@@ -3,4 +3,9 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
- a(href="http://localhost:8000/logout") a link
+  p 
+  a(href="http://localhost:8000/logout") Link
+  p Info: 
+  p Acces Token: #{access_token}
+  p Refresh Token: #{refresh_token}
+  
