@@ -27,6 +27,6 @@ router.get('/oauth-callback',(req,res,next)=>{
     config).then((result)=>{
       console.log(result)
     })
-  res.send("Hola soy Paca")
+  res.render('index')
 });
 module.exports = router;
